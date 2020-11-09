@@ -16,4 +16,4 @@ jobs:
           bundler-cache: true
 
       - name: Scrape Bash docs
-        run: bundle exec thor docs:generate bash --force --debug --verbose
+        run: bundle exec thor docs:generate bash --force
